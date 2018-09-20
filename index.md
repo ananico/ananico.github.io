@@ -4,23 +4,20 @@ Ana are mere, this makes no sense, will change it later.
 
  [University of Leeds](https://www.leeds.ac.uk/) 
  
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-
-##Interests
+## Interests
 
 - It is yet to be discovered
 - hard to say at this point in life
 - data analysis will be my life 
 - all is random 
+
+
+
+```markdown
+Syntax highlighted code block
+
+
+
 
 # Header 1
 ## Header 2
