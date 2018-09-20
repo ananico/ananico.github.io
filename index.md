@@ -1,8 +1,11 @@
-## Welcome to GitHub Pages
+## Introduction 
 
-You can use the [editor on GitHub](https://github.com/ananico/ananico.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Ana are mere, this makes no sense, will change it later. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ [University of Leeds](https://www.leeds.ac.uk/) 
+ 
+
+
 
 ### Markdown
 
@@ -10,6 +13,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+
+
+##Interests
+
+- It is yet to be discovered
+- hard to say at this point in life
+- data analysis will be my life 
+- all is random 
 
 # Header 1
 ## Header 2
