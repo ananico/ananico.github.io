@@ -4,6 +4,7 @@ Ana are mere, this makes no sense, will change it later.
 
  [University of Leeds](https://www.leeds.ac.uk/) 
  
+![Me photo](0.jpg)
 ## Interests
 
 - It is yet to be discovered
@@ -31,7 +32,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
