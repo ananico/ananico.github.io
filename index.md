@@ -12,7 +12,7 @@ Ana are mere, this makes no sense, will change it later.
 - data analysis will be my life 
 - all is random 
 
-
+Here you can find a picture of [my projects](projects.md)
 
 ```markdown
 Syntax highlighted code block
