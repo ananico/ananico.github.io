@@ -13,9 +13,9 @@ Previously awarded a MSc. in Data Science and Analytics and a BSc. in Economics 
 ## Projects
 During my MSc. I have done several projects including a dissertation comparing two major ensemble methdos. More information about each project can be found on their respective pages. 
 <ul>
-  <li><A HREF = "dissertation">Ensemble methods + sample of R code</A></li>
-  <li><A HREF = "big_data">Big data system archietecture: Air polution in Leeds</A></li>
-  <li><A HREF = "agent_based_modelling">Aggent based modelling- programing for social science</A>
+  <li><A HREF = "dissertation.md">Ensemble methods + sample of R code</A></li>
+  <li><A HREF = "big_data.md">Big data system archietecture: Air polution in Leeds</A></li>
+  <li><A HREF = "agent_based_modelling.md">Aggent based modelling- programing for social science</A>
 </li>
 </ul>
 
