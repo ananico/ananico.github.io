@@ -10,6 +10,12 @@ Previously awarded a MSc. in Data Science and Analytics and a BSc. in Economics 
 - Research: Applying data science methods in academia 
 - Squash
 
+#Projects
+During my MSc. I have done several projects including a dissertation comparing two major ensemble methdos. More information about each project can be found on their respective pages. 
+
+-[Ensemble methods + sample of R code](dissertation)
+-[Big data system archietecture: Air polution in Leeds](big_data)
+-[Aggent based modelling- programing for social science](agent_based_modelling)
 
 Here you can find a picture of [my projects](projects.md)
 
