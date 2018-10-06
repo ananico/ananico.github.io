@@ -1,1 +1,52 @@
-#CV
+Ana-Maria Nicoriciu
+ 
+Mobile: 07521762990
+Email: ana.nicoriciu10@gmail.com      
+A multilingual master student with high analytical and problem-solving skills acquired from a MSc. in Data Science and Analytics. Great communication, interpersonal and written skills developed through working in a client-focused environment. Self and time management gained by balancing university and work tasks. BSc. final project in Logistics cultivated research and information management know-how.
+
+EDUCATION
+•	2018-Present: MSc. Data analytics and Society, University of Manchester, School of Social Science
+2017-2018: MSc. Data Science and Analytics, University of Leeds, School of Mathematics
+●	Modules studied: Data Science, Data Management, Business Analytics and Decision Science, Statistical Theory and Methods, Big Data Systems, Statistical Learning, Forecasting and Advanced Business Analytics
+2013-2016: BSc. Economics and Management (2.1), Leeds University Business School 
+●	Modules studied include: Information in Organisations, Advance Macroeconomics, International trend and Economic Development
+
+2009-2013: “Decebal” National College, Deva, Romania
+●	Romanian Baccalaureate (9.76/10)
+
+EMPLOYMENT HISTORY 
+10/2016-Present: Receptionist, Sport & Physical Activity, University of Leeds
+●	Developed excellent communication skills by responding to face-to-face, email and phone enquiries on a daily basis. As a result, the number of customers complains compared to previous years reduced. 
+●	Have acquired high attention to detail by accurately processing new membership, especially during peak times. This was recognised by my manager and I passed my probation in less than 6 months. 
+●	Improved my interpersonal skills during the Christmas time, when I convinced the most casual customers to sign up for a new promotion. 
+ 06/2016- 09/2016: Residence Assistant, Joblink, Leeds University Union
+●	One of the main responsibilities was to give new staff a brief induction of the site and daily tasks. Therefore, I improved my ability to quickly build rapport and develop effective working relationship.  
+●	As one of the first point of contacts for students and parents during freshers' week, I was able to provide them with support in the settling process. Dealing with a variety of concerns lead to excellent customer service  
+
+06/2015- 09/2015: Reception Administration Assistant, Churchill Services
+•	Developed my organisational, time management and team skills through having sole responsibility for managing the housekeeping system Kinetics and liaising with front of house, cleaning staff and site managers during the conference season.  
+July 2015- August 2015: Conference and Events Assistant, Taskmaster Resources
+●	Developed excellent interpersonal and communication skills by interacting with and helping conference delegates from a variety of backgrounds, by communicating efficiently with the other team members and by liaising with the stakeholders involved in the hosting of the International Medieval Congress.
+
+Volunteering
+07/2016-09/2016: Volunteer, Cloverleaf Christian Centre 
+●	Achieved excellent planning and organisational skills by creating interactive and tailored teaching material for children. This resulted in increased levels of children’s performance at school. 
+●	Used the advanced numeracy skills gained during my bachelor’s degree to help children understand Mathematics better. 
+
+2013-2015: Volunteer, Leeds University Union Societies
+●	Promoting the society amongst students required approaching people from different backgrounds. Using communication and teamwork skills, a Give It a Go sessions was planned; 
+●	As treasurer of a society I used my numeracy skills and attention to detail to ensure the budget was allocated accordingly to all social events. 
+
+Languages
+<ul style="list-style-type:square">
+  <li>Romanian- native language</li>
+  <li>English- proficient</li>
+  <li>Spanish – beginners</li>
+</ul>
+
+Technical Skills
+<ul style="list-style-type:square">
+<li>	R, Tableau, SQL, Gephi, Linux, Latex</li>
+<li>	Proficient in Microsoft Office Suite</li>
+<li>	Event management and conference software- Kinetics</li>
+<li>	Leisure Management system XN</li>
