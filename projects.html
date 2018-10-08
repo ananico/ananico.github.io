@@ -33,7 +33,7 @@
 <a href="#agent"><h3>Aggent based modelling- programing for social science</h3></a>			
 <a href="#diss"><h3>Ensemble methods + sample of R code</h3></a>
 <a href="#bigdata"><h3>Big data system archietecture: Monitoring air quality in Leeds</h3></a>
-<h2>At the centre of any smart city there is big data. This data can be collected from sensors, smart devices, cameras. 
+<h5>At the centre of any smart city there is big data. This data can be collected from sensors, smart devices, cameras. 
 The type of data generated is not structured and therefore harder to analyse, use in a logical way. 
 To facilitate this process, big data systems were developed to perform specific tasks which are required to obtain a result 
 or reach a decision. For these systems to work efficiently, a system architecture must be put in place.
@@ -41,12 +41,30 @@ For example, the main requirement for a city to be smart is to have a well-devel
 However, this infrastructure can be composed of other little architectures designed for the different sections that form a smart city. 
 One such segment would be monitoring air quality. Even when considering just the chemical compounds in the air, a big 
 data system architecture must be put in place so that data can be accessed by everyone.  Designing such a system can be challenging 
-and expertise from various fields is required to achieve a good network, with a constant need for improvements being necessary.</h2>
-
+and expertise from various fields is required to achieve a good network, with a constant need for improvements being necessary.</h5>
+ 			
+<h5> For example the bellow figure describes how systems measuring air quality in Leeds,
+ would be deployed in a practical way</h5>
+<img src="system.PNG" alt="Big data system for air polution in Leeds" />
+ <h5> The first step would be to decide what type of sensors to use and where to place them. 
+ After that, data will go through a streaming software <a href="https://kafka.apache.org/">Apache Kafka</a> before being stored.
+ Once streamed, data will be stored in a cloud environment such as <a href="https://azure.microsoft.com/en-gb/">Microsoft Azure</a>.
+<a href="https://hadoop.apache.org/" >Hadoop</a> needs to be deployed so that the data can be saved in the HDFS file system from where it can be used for 
+ both batch processing and live analysis. </h5>
 			
-			<h2></h2>
+<h5> In this system, there could be both dynamic analysis and analysis of historic data. In the first case, 
+<a href="https://spark.apache.org/">Apache Spark</a> will need to be used as the bridge between HDFS and Python 
+for providing real-time analysis. The output for this scenario will be dependent on what the consumer wants to know. 
+For example, a citizen might what to know the NO2 levels in a specific location before he leaves the house, so that he 
+can decide if that location would have a negative impact on his health or not. This is examplified in the bellow figure, which , 
+that on the 11th of December 2016, at 8:30 am, Bishopgate street was one of the most polluted areas, followed by Corn Exchange 
+and Haslewood. On the other side, Kirkstall Road and Tilbury Terrace were the least polluted.</h5>
+<img src="11122016.jpg" alt="Air polution in Leeds: 11th of December 2016, 8:30 am" />
+	
+<h5>Dynamic analysis can also be useful to environmental
+agencies, by offering them live notifications when NO2 emissions have reached a critical level. This type of notification will also 
+provide the location and predictions on whether the levels are likely to change in a few minutes or not, based on past data.</h5>
 			
-
 			
 
 
