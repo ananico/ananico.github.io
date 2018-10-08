@@ -26,9 +26,14 @@
 
 <ul>
   <li><A HREF = "#agent">Aggent based modelling- programing for social science</A></li>
-  <li><A HREF = "#diss">Ensemble methods + sample of R code</A></li>
-	
-	<p>ENSEMBLE METHODS</p>
+  <li><A HREF = "#diss">Ensemble methods + sample of R code</A></li>	
+  <li><A HREF = "#bigdata">Big data system archietecture: Monitoring air quality in Leeds</A></li>
+</ul>			
+			
+<a href="#agent"><h3>Aggent based modelling- programing for social science</h3></a>			
+
+<a href="#diss"><h3>Ensemble methods + sample of R code</h3></a>
+
 <h5>Studies have shown that one why to improve performance of weak learners is to used ensemble
 methods; which by combining the results of multiple weak learners through different
 methods a more reliable models is obtained.</h5>
@@ -39,17 +44,17 @@ the crowds. Both him and Galton, agree that the crowd is only smarter than the i
 those forming the crown are unbiased, meaning there is diversity, independence, decentralisation
 and some form of aggregation must be achieved. These characteristics are the building blocks
 for a successful ensemble. This brings us to Bagging.</h5>
-	<p>BOOTSTRAP AGGREGATING (Bagging)</p>
+	<h3>BOOTSTRAP AGGREGATING (Bagging)</h3>
 <h5>Bagging comes from BOOTSTRAP AGGREGATING, where bootstrap is method which
 randomly samples with replacement from an original dataset to generate new slightly distinct
 sets (DIVERSITY). The generic steps for this process are represented bellow:</h5>
 <img src="Cap2.jpg" alt="The bagging process" />
-	<p>RANDOM FORESTS</p>
+	<h3>RANDOM FORESTS</h3>
 <h5>Random Forests are an improved version of bagging. In this algorithm, the number of variables
 to chose from at each split is limited. A new random sample of candidate predictors is
 generated at each split from which only one can be used. In doing so, variables which were less
 likely to be chosen before, now have higher chance and the trees are decorrelated.</h5>
-	<p>BOOSTING</p>
+	<h3>BOOSTING</h3>
 <h5>Another ensemble methods is BOOSTING. Rather than generating
 diversity form the beginning, in BOOSTING the learning process readjusts with each iteration
 by choosing to use or not certain records from the training set.</h5>
@@ -59,7 +64,7 @@ by using a weighted majority voting scheme. The algorithm assigns higher weights
 to classify examples, meaning that later trees tend to focus more on these examples and so the
 algorithm learns from its mistakes.</h5>
 
-	<p>R + DATA SET</p>
+	<h3>R + DATA SET</h3>
 <h5>These theoretical aspects can implemented with the help of the <a href= "https://www.r-project.org/">R software</a>. This
 gives users the possibility to change the pre-set values of the parameters of interest in order to
 find values which give the best accuracy rates.</h5>
@@ -75,7 +80,7 @@ The most important aspect of this dataset is that it is unbalanced as 76.6%
 of the cases belong to just one class. This is an important aspect as it can have negative effects
 on model performance and it also makes accuracy a less reliable way of measuring model efficiency.</h5>
 
-	<p>RESULTS+ MODEL COMPARISON</p>
+	<h3>RESULTS+ MODEL COMPARISON</h3>
 	
 <h5>To see how ensemble methods differentiate from other classical models, logistic regression
 and decision trees were also constructed with the same dataset. As mentioned before, looking just 
@@ -92,7 +97,7 @@ of positive classes is still too low. At the same time, what Breiman (1996), Fri
 others, argued was that ensembles can enhance the performance of a weak learners. From this
 angle, both bagging and boosting methods show better results than decision trees.</h5>
 <<img src="table.jpg" alt="Results" />	
-	<p>CONCLUSION</p>
+	<h3>CONCLUSION</h3>
 <h5>Overall, no variable can be considered as a very strong predictor regardless of what some
 models (i.e Decision trees, Gradient Boosting) might suggest. From the police force variable
 analysis, it could be concluded that more conclusive results would be obtained if the models
@@ -102,18 +107,8 @@ with the only exception being simple bagging. Nevertheless, none of the models u
 compelling evidence to suggest they are good models. For future analysis, methods such as
 neural networks can be tried along with additional variables such as age of the driver, was
 alcohol consumed before driving etc..</h5>
-	
-	
-	
-	
-	
-	
-	
-  <li><A HREF = "#bigdata">Big data system archietecture: Monitoring air quality in Leeds</A></li>
-</ul>			
 			
-<a href="#agent"><h3>Aggent based modelling- programing for social science</h3></a>			
-<a href="#diss"><h3>Ensemble methods + sample of R code</h3></a>
+			
 <a href="#bigdata"><h3>Big data system archietecture: Monitoring air quality in Leeds</h3></a>
 <h5>At the centre of any smart city there is big data. This data can be collected from sensors, smart devices, cameras. 
 The type of data generated is not structured and therefore harder to analyse, use in a logical way. 
