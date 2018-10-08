@@ -6,11 +6,19 @@ body {
 .mountains {
   background-image: url("mountains.jpg");
   background-color: #cccccc;
-  height: 300px;
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.mountains-text {
+  text-align: left;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #20B2AA;
 }
 nav ul, footer ul {
     font-family: 'Arial', 'Sans';
