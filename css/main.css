@@ -14,11 +14,10 @@ body {
 }
 .mountains-text {
   text-align: left;
-  font-size:2em ;
   position: absolute;
-  top: 20%;
-  left: 80%;
-  transform: translate(-50%, -50%);
+  bottom: 10px;
+  left: 15px;
+  font-size:2em ;
   color: #20B2AA;
 }
 nav ul, footer ul {
