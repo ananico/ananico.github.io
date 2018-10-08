@@ -35,9 +35,8 @@ ul.posts li {
 d {
     margin: 200px 200px 200px 200px;
 }
-h1 { text-align: centre;
-    font-size: 1em;
-    ;
+h1 { text-align: center;
+    font-size: 1em;  
 }
 h4 {
     text-align: center;
@@ -50,7 +49,7 @@ h2{text-align: left;
 
 }
 p{text-align: center;
-    font-size: 1.875em
+    font-size: 1.875em;
     color: black;
 }
     ul.a {
