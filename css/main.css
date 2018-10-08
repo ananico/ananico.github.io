@@ -6,7 +6,7 @@ body {
 .mountains {
   background-image: url("mountains.jpg");
   background-color: #cccccc;
-  height: 250px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
