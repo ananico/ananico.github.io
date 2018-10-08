@@ -2,6 +2,16 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+.mountains {
+  background-image: mountains.jpg;
+  background-color: none;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 nav ul, footer ul {
     font-family: 'Arial', 'Sans';
     font-weight: bold;
