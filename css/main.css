@@ -43,22 +43,23 @@ h4 {
     font-size: 2.5em;
     color: black;
 } 
-h2{text-align: left;
-    font-size: 1em;
+h2 {
+    text-align: left;
+    font-size: 1.5em;
     color: black;
-
 }
 p{text-align: center;
     font-size: 1.875em;
     color: black;
 }
-    ul.a {
-    list-style-type: circle;
-}
 h3 {
     text-align: left;
     font-size: 1.875em;
 }
+    ul.a {
+    list-style-type: circle;
+}
+
 address { 
     display: block;
     font-style: bold;
