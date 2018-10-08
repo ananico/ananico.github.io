@@ -4,7 +4,7 @@ body {
 }
 
 .mountains {
-  background-image: mountains.jpg;
+  background-image: <img src="mountains.jpg"/>;
   background-color: none;
   height: 250px;
   background-position: center;
