@@ -27,6 +27,88 @@
 <ul>
   <li><A HREF = "#agent">Aggent based modelling- programing for social science</A></li>
   <li><A HREF = "#diss">Ensemble methods + sample of R code</A></li>
+	
+	<p>ENSEMBLE METHODS</p>
+<h5>Studies have shown that one why to improve performance of weak learners is to used ensemble
+methods; which by combining the results of multiple weak learners through different
+methods a more reliable models is obtained.</h5>
+<h5>To a simpler level, this idea was first discussed by Galton in 1907 in his well know example
+with guessing the weight of the ox, where the average of all random guesses, was the closest answer
+to the true value. This idea was also detailed by Surowiecki (2005) in his book, Wisdom of
+the crowds. Both him and Galton, agree that the crowd is only smarter than the individual, when
+those forming the crown are unbiased, meaning there is diversity, independence, decentralisation
+and some form of aggregation must be achieved. These characteristics are the building blocks
+for a successful ensemble. This brings us to Bagging.</h5>
+	<p>BOOTSTRAP AGGREGATING (Bagging)</p>
+<h5>Bagging comes from BOOTSTRAP AGGREGATING, where bootstrap is method which
+randomly samples with replacement from an original dataset to generate new slightly distinct
+sets (DIVERSITY). The generic steps for this process are represented bellow:</h5>
+<img src="Cap2.jpg" alt="The bagging process" />
+	<p>RANDOM FORESTS</p>
+<h5>Random Forests are an improved version of bagging. In this algorithm, the number of variables
+to chose from at each split is limited. A new random sample of candidate predictors is
+generated at each split from which only one can be used. In doing so, variables which were less
+likely to be chosen before, now have higher chance and the trees are decorrelated.</h5>
+	<p>BOOSTING</p>
+<h5>Another ensemble methods is BOOSTING. Rather than generating
+diversity form the beginning, in BOOSTING the learning process readjusts with each iteration
+by choosing to use or not certain records from the training set.</h5>
+<h5>One of the early boosting algorithms developed was AdaBoosting by Freund and Schapire
+(1996). This can decrease training error of unstable methods (weaklearners) classification trees,
+by using a weighted majority voting scheme. The algorithm assigns higher weights to harder
+to classify examples, meaning that later trees tend to focus more on these examples and so the
+algorithm learns from its mistakes.</h5>
+
+	<p>R + DATA SET</p>
+<h5>These theoretical aspects can implemented with the help of the <a href= "https://www.r-project.org/">R software</a>. This
+gives users the possibility to change the pre-set values of the parameters of interest in order to
+find values which give the best accuracy rates.</h5>
+
+<h5>In terms of the dataset used, it contains information about 
+<a href="https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data">road accident in the UK in 2016</a>.
+Some data cleaning steps were required, such as reduction of variable, value imputation for
+missing records and clustering of Police Force to reduce the number of levels in order to accommodate
+the use of functions in R.</h5>
+<h5>Overall 20 variables were kept from the original dataset, where the variable of interest is a
+binary one which answers the question: will police officers go to the scene of an accident or not.
+The most important aspect of this dataset is that it is unbalanced as 76.6%
+of the cases belong to just one class. This is an important aspect as it can have negative effects
+on model performance and it also makes accuracy a less reliable way of measuring model efficiency.</h5>
+
+	<p>RESULTS+ MODEL COMPARISON</p>
+	
+<h5>To see how ensemble methods differentiate from other classical models, logistic regression
+and decision trees were also constructed with the same dataset. As mentioned before, looking just 
+at accuracy levels would not offer a reliable way for benchmarking models performance, due to data 
+unbalanced, hence TPrate along with AUC scores were also used.</h5>
+	
+<h5>When looking at accuracy rates it can be seen that Logistic regression when time is treated as
+an integer, decision trees and especially Bagging are doing worst than just assigning all points to
+the negative class, which has a prevalence of 76.6%. In terms of TPrates DT is never predicting
+the positive class. A surprising result is that of logistic regression when time is treated as an
+integer. This model has the highest TPrate value, but this is not to say it is a good model as its
+accuracy is marginally under that of just making an informed guess, and the predictability rate
+of positive classes is still too low. At the same time, what Breiman (1996), Friedman (2002) and
+others, argued was that ensembles can enhance the performance of a weak learners. From this
+angle, both bagging and boosting methods show better results than decision trees.</h5>
+<<img src="table.jpg" alt="Results" />	
+	<p>CONCLUSION</p>
+<h5>Overall, no variable can be considered as a very strong predictor regardless of what some
+models (i.e Decision trees, Gradient Boosting) might suggest. From the police force variable
+analysis, it could be concluded that more conclusive results would be obtained if the models
+were fitted at a region, or even just police force level, rather than at country level. With regards
+to general model performance, ensemble models’ results were better than those of weak learners,
+with the only exception being simple bagging. Nevertheless, none of the models used provide
+compelling evidence to suggest they are good models. For future analysis, methods such as
+neural networks can be tried along with additional variables such as age of the driver, was
+alcohol consumed before driving etc..</h5>
+	
+	
+	
+	
+	
+	
+	
   <li><A HREF = "#bigdata">Big data system archietecture: Monitoring air quality in Leeds</A></li>
 </ul>			
 			
