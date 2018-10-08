@@ -57,6 +57,9 @@ h3 {
     text-align: left;
     font-size: 1.55em;
 }
+h5{text-align: left;
+    font-size: 1em;
+}
     ul.a {
     list-style-type: circle;
 }
