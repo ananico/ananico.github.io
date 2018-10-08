@@ -5,6 +5,7 @@ body {
 nav ul, footer ul {
     font-family: 'Arial', 'Sans';
     font-weight: bold;
+    font-color: blue;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -45,16 +46,16 @@ h4 {
 } 
 h2 {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: black;
 }
 p{text-align: center;
-    font-size: 1.875em;
+    font-size: 1.55em;
     color: black;
 }
 h3 {
     text-align: left;
-    font-size: 1.875em;
+    font-size: 1.55em;
 }
     ul.a {
     list-style-type: circle;
