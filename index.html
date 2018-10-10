@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <div class="mountains">
 <div class="mountains-text">		
 		<nav>
@@ -42,7 +43,25 @@ both from the <a href="https://www.leeds.ac.uk/">The University of Leeds</a>.</h
 <h3> Projects</h3>
 <h2>During my MSc. I have done several projects including a dissertation comparing two major ensemble methdos. More information 
 	about several projects can be found on the <A href="projects.html">Project's page</a></h2>
-	
+
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
     		</div><!-- /.blue-->
 		</div><!-- /.container -->
