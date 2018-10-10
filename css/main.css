@@ -22,11 +22,11 @@ body {
 nav ul, footer ul {
     font-family: 'Arial', 'Sans';
     font-weight: bold;
-    font-color: blue;
+    font-color: #000000;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+   <!margin-right: 20px;>
 }
 a {
     text-decoration: none;
