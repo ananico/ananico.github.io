@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
+<button onclick="topFunction()" id="topbutton" title="Go to top">Top</button>
 <div class="mountains">
 	<div class="mountains-text">
 	
@@ -156,14 +157,21 @@ provide the location and predictions on whether the levels are likely to change 
 
 
 
-
-
-
-
-
-
-
-
+<script>
+//reference: Available from:https://www.w3schools.com/howto/howto_js_scroll_to_top.asp[Online][Accessed 10/10/2018]
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 30) {
+        document.getElementById("topbutton").style.display = "block";
+    } else {
+        document.getElementById("topbutton").style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 
 	</div><!-- /.blue-->
