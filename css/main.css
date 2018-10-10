@@ -27,7 +27,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    word-spacing: 1cm
+    word-spacing: 1cm;
 }
 a {
     text-decoration: none;
