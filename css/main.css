@@ -14,7 +14,7 @@ body {
 }
 .mountains-text {
   position: absolute;
-  bottom: 2.5px;
+  bottom: 1px;
   left: 10px;
   font-size:2em ;
   color:#000000;
