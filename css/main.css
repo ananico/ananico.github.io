@@ -7,7 +7,7 @@ body {
     margin: 40px auto;
     width: 80%;
 }
-/* Puts a background image on the top of the page where the website page button can be found
+/* Puts a background image on the top of the page where the website page buttons can be found
 personal image was used*/ 
 .mountains {
   background-image: url("mountains.jpg");
@@ -83,14 +83,14 @@ h5{text-align: left;
     ul.a {
     list-style-type: circle;
 }
-/* create block which is used to in the CV page to set telefon number and link to email */
+/* create block which is used in the CV page to set telefon number and link to email */
 address { 
     display: block;
     font-style: bold;
 }
 
-/* used to create a button whihc allows the user to go back to the top of the page 
-after he/she scrolled a certain amount from the top of the page*/
+/* used to create a button which allows the user to go back to the top of the page 
+after he/she scrolled a certain distance from the top of the page*/
 #topbutton {
   display: none;
   position: fixed;
