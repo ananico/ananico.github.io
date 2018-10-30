@@ -40,6 +40,13 @@ a {
     text-decoration: underline #20B2AA;
     color: black;
 }
+a:visited {
+    color: purple;
+}
+
+a1{ text-decpration: none; 
+}
+
 /*sets the size of the footer */ 
 footer {
     border-top: 1px solid #d5d5d5;
