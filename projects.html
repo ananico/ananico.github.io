@@ -12,7 +12,7 @@
 
 	</head>
 	<body>
-<script>
+<!<script>
 var image = document.getElementById("likes"), 
     button = document.getElementById("pause");
     
@@ -27,7 +27,7 @@ if (image.classList && image && button) {
         }
     };
 }
-		</script>
+		</script>>
 <button onclick="topFunction()" id="topbutton" title="Go to top">Top</button>
 <div class="mountains">
 	<div class="mountains-text">
@@ -65,7 +65,28 @@ the wolves and sheeps are in close proximity to each other, the sheeps get eaten
 the process is generated. One of the aminations produces was save and can be visualized below.</h5>
 
 
+	<div style="text-align:center";"background-color: white";>
 
+		<button onclick="playPause()">Play</button> 
+
+	        <img id="animation"  src="animation.gif" >
+
+
+
+                </img>
+
+	</div>
+
+	<script> 
+        var agents = document.getElementById("animation"); 
+        function playPause() { 
+        	if (agents.paused) 
+        	    agents.play(); 
+        	else 
+        	    agents.pause(); 
+       	} 
+	</script>
+			
 <div id="likes" class="anim"></div>
 <div><input type="button" id="pause" value="pause"></div>
 			
