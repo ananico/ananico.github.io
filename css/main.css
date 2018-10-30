@@ -107,5 +107,12 @@ after he/she scrolled a certain distance from the top of the page*/
   border-radius: 5px 2px;
 }
 
+.anim{display: block;
+    background: url(animation.gif)
+}
+.pause{
+animation-play-state: paused;
+}
+
 
 
