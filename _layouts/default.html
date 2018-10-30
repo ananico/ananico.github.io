@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{page.title}}/title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<! creates link to a page which already contains code for various icons  >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+<button onclick="topFunction()" id="topbutton" title="Go to top">Top</button>
+<div class="mountains">
+<div class="mountains-text">		
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/projects.html">Projects</a></li>
+        		<li><a href="/CV.html">CV</a></li>
+        		
+    		</ul>
+		</nav>
+		</div>
+		</div>
+		<div class="container">
+    		<div class="blue">
+        
+     {{content}}
+
+<script>
+//reference:[Online][Accessed 10/10/2018] Available from:https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+//creates and interactive button to allow users to get back at the top of the page
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 30) {
+        document.getElementById("topbutton").style.display = "block";
+    } else {
+        document.getElementById("topbutton").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+    		</div><!-- /.blue-->
+		</div><!-- /.container -->
+		<footer>
+		<! add icons representative for the links connected to them  >
+    		<ul>
+        		<li><a href="mailto:ana.nicoriciu10@gmail.com" class="fa fa-google" style="text-decoration:none;"></a></li>
+        		<li><a href="https://ananico.github.io/" class="fa fa-github"  style="text-decoration:none;"></a></li>
+			<li><a href="https://www.linkedin.com/in/ana-maria-nicoriciu-678aa4128/" class="fa fa-linkedin-square"  style="text-decoration:none;"></a><li>
+			</ul>
+			
+		</footer>
+	</body>
+</html>
