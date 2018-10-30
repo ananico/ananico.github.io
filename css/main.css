@@ -108,7 +108,7 @@ after he/she scrolled a certain distance from the top of the page*/
 }
 
 .anim{display: block;
-    background: url(animation.gif)
+    background: url("animation.gif");
 }
 .pause{
 animation-play-state: paused;
