@@ -34,16 +34,16 @@
 
 
 <ul>
-  <li><A HREF = "#agent">Aggent based modelling- programing for social science</A></li>
+  <li><A HREF = "#agent">Agent based modelling- programing for social science</A></li>
   <li><A HREF = "#diss">Ensemble methods + sample of R code</A></li>	
   <li><A HREF = "#bigdata">Big data system archietecture: Monitoring air quality in Leeds</A></li>
 </ul>			
 			
-<a id="agent"><h3>Aggent based modelling- programing for social science</h3></a>
+<a id="agent"><h3>Agent based modelling- programing for social science</h3></a>
 <h5>Agent based modelling represents a way to model the dynamics of complex (adaptive) systems (Macal and North, 2005). 
-The type of systems eing model can vary from modelling human behaviour to the way animals move and interact.</h5> 
+The type of systems being model can vary from modelling human behaviour to the way animals move and interact.</h5> 
 <h5>During the GEOG5995 Programming for Social Scientists module from Leeds University, I have acquired the basic skills required to 
-create such a model. The code written in the project can be found be following the <a href="https://github.com/ananico/Programming_Social_Science">link</a>.</h5>
+create such a model. The code written in the project can be found on the following <a href="https://github.com/ananico/Programming_Social_Science">link</a>.</h5>
 		
 <h5>While the model is not based on a real dataset, it simulates an interaction between sheep and wolves, where if 
 the wolves and sheep are in close proximity to each other, the sheep get eaten by the wolves. If the code is run an amination of 
@@ -67,17 +67,17 @@ the crowds. Both him and Galton, agree that the crowd is only smarter than the i
 those forming the crown are unbiased, meaning there is diversity, independence, decentralisation
 and some form of aggregation must be achieved. These characteristics are the building blocks
 for a successful ensemble. This brings us to Bagging.</h5>
-	<h3>BOOTSTRAP AGGREGATING (Bagging)</h3>
+	<h2>BOOTSTRAP AGGREGATING (Bagging)</h2>
 <h5>Bagging comes from BOOTSTRAP AGGREGATING, where bootstrap is method which
 randomly samples with replacement from an original dataset to generate new slightly distinct
 sets (DIVERSITY). The generic steps for this process are represented bellow:</h5>
 <img src="Cap2.JPG" alt="The bagging process" style="width:50%; height:50%"/>
-	<h3>RANDOM FORESTS</h3>
+	<h2>RANDOM FORESTS</h2>
 <h5>Random Forests are an improved version of bagging. In this algorithm, the number of variables
 to chose from at each split is limited. A new random sample of candidate predictors is
 generated at each split from which only one can be used. In doing so, variables which were less
 likely to be chosen before, now have higher chance and the trees are decorrelated.</h5>
-	<h3>BOOSTING</h3>
+	<h2>BOOSTING</h2>
 <h5>Another ensemble methods is BOOSTING. Rather than generating
 diversity form the beginning, in BOOSTING the learning process readjusts with each iteration
 by choosing to use or not certain records from the training set.</h5>
@@ -87,7 +87,7 @@ by using a weighted majority voting scheme. The algorithm assigns higher weights
 to classify examples, meaning that later trees tend to focus more on these examples and so the
 algorithm learns from its mistakes.</h5>
 
-	<h3>R + DATA SET</h3>
+	<h2>R + DATA SET</h2>
 <h5>These theoretical aspects can implemented with the help of the <a href= "https://www.r-project.org/">R software</a>. This
 gives users the possibility to change the pre-set values of the parameters of interest in order to
 find values which give the best accuracy rates.</h5>
@@ -103,7 +103,7 @@ The most important aspect of this dataset is that it is unbalanced as 76.6%
 of the cases belong to just one class. This is an important aspect as it can have negative effects
 on model performance and it also makes accuracy a less reliable way of measuring model efficiency.</h5>
 
-	<h3>RESULTS+ MODEL COMPARISON</h3>
+	<h2>RESULTS+ MODEL COMPARISON</h2>
 	
 <h5>To see how ensemble methods differentiate from other classical models, logistic regression
 and decision trees were also constructed with the same dataset. As mentioned before, the analysis was done in R and an 
@@ -121,7 +121,7 @@ of positive classes is still too low. At the same time, what Breiman (1996), Fri
 others, argued was that ensembles can enhance the performance of a weak learners. From this
 angle, both bagging and boosting methods show better results than decision trees.</h5>
 <img src="table.jpg" alt="Results" style="width:50%; height:50%"/>	
-	<h3>CONCLUSION</h3>
+	<h2>CONCLUSION</h2>
 <h5>Overall, no variable can be considered as a very strong predictor regardless of what some
 models (i.e Decision trees, Gradient Boosting) might suggest. From the police force variable
 analysis, it could be concluded that more conclusive results would be obtained if the models
